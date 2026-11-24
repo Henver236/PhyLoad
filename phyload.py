@@ -15,9 +15,7 @@ from Bio import Entrez, SeqIO
 # Configuration
 # ---------------------------------------------------------------------
 
-INPUT_FILE = Path(
-    "/home/f80878358/Phylogeny/input/ref-region.tsv"
-)
+
 
 REQUEST_DELAY = 0.4
 
