@@ -382,7 +382,7 @@ def main():
 
     parser.add_argument(
         "--input",
-        default=str(INPUT_FILE),
+        default=None,
         help="Input TSV file."
     )
 

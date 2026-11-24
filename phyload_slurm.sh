@@ -8,8 +8,8 @@
 
 set -euo pipefail
 
-PHYL_DIR="$HOME/Phylogeny"
-INPUT="$PHYL_DIR/input/ref-region-full.tsv"
+PHYL_DIR="$HOME/PhyLoad"
+INPUT="$PHYL_DIR/input/ref-region.tsv"
 OUTPUT="$PHYL_DIR/output"
 MAIL="no@thankyou.com"
 
@@ -31,4 +31,4 @@ python3 "$PHYL_DIR/phyload.py" \
     --outdir "$OUTPUT"
 
 
-echo "Terminé à $(date)"
+echo "Finished at $(date)"
